@@ -10,8 +10,7 @@ function Section1(){
                     <h4>and this is my portfolio.</h4>
                 </div>
             </div>
-            <div className = "section-1-background">
-                
+            <div className = "section-1-background">       
             </div>
         </div>
     );

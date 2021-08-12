@@ -1,4 +1,4 @@
-.section-1-main{
+.section-1-main {
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -6,18 +6,20 @@
     grid-template-areas: "ic ib";
 }
 
-.section-1-background{
+.section-1-background {
     height: 100%;
     width: 100%;
     background: #35014a;
     background-image: url(./assets/section1bg.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-area: ib;
 }
 
-.section-1-intro{
+.section-1-intro {
     background: #eaeaeacf;
     display: flex;
     justify-content: center;
@@ -25,27 +27,26 @@
     grid-area: ic;
 }
 
-.section-1-intro-content p{
+.section-1-intro-content p {
     margin: 1px;
     font-size: 25px;
     font-weight: 300;
 }
 
-.section-1-intro-content h2{
+.section-1-intro-content h2 {
     margin: 1px;
     font-size: 50px;
     font-weight: 400;
 }
 
-.section-1-intro-content h4{
+.section-1-intro-content h4 {
     margin: 1px;
     font-size: 20px;
     font-weight: 300;
 }
 
-
-@media screen and (max-width: 480px) {
-    .section-1-intro{
+@media screen and (max-width: 650px) {
+    .section-1-intro {
         background: #35014a;
         width: 100vw;
         background-image: url(./assets/section1bg.png);
@@ -58,13 +59,11 @@
         grid-area: ic;
         color: #e8e8e8;
     }
-
-    .section-1-intro-content{
+    .section-1-intro-content {
         position: relative;
         top: 25%;
     }
-    
-    .section-1-background{
+    .section-1-background {
         display: none;
     }
 }
