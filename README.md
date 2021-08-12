@@ -1,2 +1,3 @@
 # Portfolio
-Developer and designer portfolio
+Developer and designer portfolio.
+Framework: ReactJS
